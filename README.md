@@ -1,0 +1,1 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Tempor-ai/sybil-public/HEAD?labpath=%2Fm3_deliverable%2Fapi_call_example.ipynb)
