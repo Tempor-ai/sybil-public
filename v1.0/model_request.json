@@ -1,0 +1,24 @@
+{
+    "type": "meta_lr",
+    "scorers": ["smape", "mase"],
+    "params": {
+        "preprocessors": [
+            {"type": "dartsimputer"},
+            {"type": "minmaxscaler"}
+        ],
+        "base_models": [
+            {"type": "darts_naive"},
+            {"type": "darts_seasonalnaive"},
+            {"type": "darts_autotheta"},
+            {"type": "darts_autoets"},
+            {"type": "darts_autoarima"},
+            {"type": "darts_tbats"},
+            {"type": "darts_lightgbm", "params": {"lags": 12, "output_chunk_length": 6, "verbose": -1}},
+            {"type": "darts_linearregression"},
+            {"type": "darts_kalman"},
+            {"type": "darts_autoces"},
+            {"type": "darts_catboost"}
+            
+        ]
+    }
+}
