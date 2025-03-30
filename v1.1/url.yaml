@@ -1,5 +1,21 @@
 # The URL details is currently hidden from the public and is only available to the SYBIL and selected alpha users.
 # If you are interested in becoming a SIBYL alpha user, please reach out to Kevin R.C. <kevin@tempor.ai>.
-protocol: nan
-host: nan
-port: nan
+# protocol: nan
+# host: nan
+# port: nan
+
+# Local
+# protocol: http
+# host: localhost
+# port: 8000
+
+# UAT
+
+# protocol: https
+# host: sybil-test.tempor.ai
+# port: 443
+
+# PROD
+protocol: https
+host: sybil.tempor.ai
+port: 443
